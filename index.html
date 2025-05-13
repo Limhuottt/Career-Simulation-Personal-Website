@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Page -->
+    <main>
+      <section id="home">
+        <img
+          src="C:\Users\limhu\Desktop\COURSEWORK\block10\Career-Simulation-Personal-Website\Portfolio Picture.jpg"
+          alt="Your Photo"
+          class="profile-pic"
+        />
+        <h1>Welcome to My Personal Site</h1>
+        <p>
+          I'm a junior web developer passionate about building modern,
+          user-friendly web applications.
+        </p>
+        <blockquote>
+          "Sometimes, you have to take a leap of faith first. The trust part
+          comes later."
+        </blockquote>
+      </section>
+
+      <!-- About Page -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm a curious and enthusiastic developer who enjoys solving
+          problems with code. I love learning new technologies and improving my
+          skills every day. I am doing a bootcamp course to enhance my knowledge
+          and experience in web development. I have a strong interest in
+          frontend and backend development, and I enjoy collaborating with
+          others to create amazing projects.
+        </p>
+        <ul>
+          <li>💻 Languages: HTML, CSS, JavaScript</li>
+          <li>⚙️ Tools: VS Code, Git, GitHub</li>
+          <li>
+            🎯 Interests: Frontend development, UI/UX design, tech communities
+          </li>
+        </ul>
+      </section>
+
+      <!-- Portfolio Page -->
+      <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project">
+          <h3>Project One</h3>
+          <p>A simple to-do app that helps users manage tasks efficiently.</p>
+          <img src="project1-screenshot.jpg" alt="Project One Screenshot" />
+          <a href="https://github.com/yourusername/project-one" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project">
+          <h3>Project Two</h3>
+          <p>A portfolio website to showcase my work and skills.</p>
+          <img src="project2-screenshot.jpg" alt="Project Two Screenshot" />
+          <a href="https://github.com/yourusername/project-two" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </section>
+
+      <!-- Contact Page -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Your Name</p>
+    </footer>
+  </body>
+</html>
